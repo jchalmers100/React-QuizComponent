@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 import Quiz from './Quiz'
-const quiz_question = this.quizData.quiz_question[this.quiz_position - 1]; 
-
+ 
 class QuizQuestion extends React.Component {
 
 render() {
     return(
         <main>
         <section>
-          <p>{this.props.instruction_text}</p>
+          <p>{this.props.quiz_question.instruction_text}</p>
         </section>
         <section className="buttons">
           <ul>
