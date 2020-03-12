@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Quiz from './Quiz'
-const quiz_question = quizData.quiz_question[quiz_position - 1] 
+const quiz_question = this.quizData.quiz_question[this.quiz_position - 1]; 
 
 class QuizQuestion extends React.Component {
 
